@@ -109,6 +109,26 @@ class _CalculatorState extends State<Calculator> {
             SizedBox(
               height: 10,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                RaisedButton(
+                  padding: EdgeInsets.fromLTRB(34, 20, 128, 20),
+                  onPressed: () {},
+                  shape: StadiumBorder(),
+                  child: Text(
+                    '0',
+                    style: TextStyle(
+                      fontSize: 35,
+                      color: Colors.white,
+                    ),
+                  ),
+                  color: Colors.grey.shade800,
+                ),
+                calcButton('.', Colors.grey.shade800, Colors.white),
+                calcButton('=', Colors.amber.shade700, Colors.white)
+              ],
+            ),
           ],
         ),
       ),

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "b4dbe741e202c7e590bbed9d3db28709"
+build_time: [1624964240, 618588000]
+inputs:
+  "/Users/decagon/Desktop/EMAR/myflutter_iOS_Calculator/flutter_ios_calculator/macos/Runner/MainFlutterWindow.swift": [1623059678, 98652878]
+  "/Users/decagon/Desktop/EMAR/myflutter_iOS_Calculator/flutter_ios_calculator/macos/Runner/AppDelegate.swift": [1623059678, 95810993]
+  "/Users/decagon/Desktop/EMAR/myflutter_iOS_Calculator/flutter_ios_calculator/macos/Flutter/GeneratedPluginRegistrant.swift": [1624964213, 583110424]
