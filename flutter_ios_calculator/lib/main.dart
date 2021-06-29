@@ -61,6 +61,54 @@ class _CalculatorState extends State<Calculator> {
                 )
               ],
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                calcButton('AC', Colors.grey.shade800, Colors.white),
+                calcButton('+/-', Colors.grey.shade800, Colors.white),
+                calcButton('%', Colors.grey.shade800, Colors.white),
+                calcButton('÷', Colors.amber.shade700, Colors.white)
+              ],
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                calcButton('7', Colors.grey.shade800, Colors.white),
+                calcButton('8', Colors.grey.shade800, Colors.white),
+                calcButton('9', Colors.grey.shade800, Colors.white),
+                calcButton('×', Colors.amber.shade700, Colors.white)
+              ],
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                calcButton('4', Colors.grey.shade800, Colors.white),
+                calcButton('5', Colors.grey.shade800, Colors.white),
+                calcButton('6', Colors.grey.shade800, Colors.white),
+                calcButton('-', Colors.amber.shade700, Colors.white)
+              ],
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                calcButton('1', Colors.grey.shade800, Colors.white),
+                calcButton('2', Colors.grey.shade800, Colors.white),
+                calcButton('3', Colors.grey.shade800, Colors.white),
+                calcButton('+', Colors.amber.shade700, Colors.white)
+              ],
+            ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),

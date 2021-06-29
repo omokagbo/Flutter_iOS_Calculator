@@ -1,0 +1,4 @@
+#Tue Jun 29 10:54:51 WAT 2021
+base.0=/Users/decagon/Desktop/EMAR/myflutter_iOS_Calculator/flutter_ios_calculator/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
